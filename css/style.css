@@ -1,0 +1,86 @@
+body {
+    background-image: url(/home/k/codecool/Web/noteApp/image/background.jpg);
+    min-width: 100%;
+    min-height: 100%; 
+     
+    background-size: 100%;
+}
+
+h1 {
+    border: solid;
+    padding: 2%;
+    text-align: center;
+    background: none;
+    color: blue;
+    border-radius: 10px;
+}
+
+button#add-note {
+    background: none;
+    border: solid;
+    border-color: blue;
+    width: 20%;
+    height: 100px;
+    margin-top: 15%;
+    border-radius: 10px;
+    
+}
+
+button#add-note:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+div#content{
+    size: 100%;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* flex-flow: row-reverse wrap; */
+
+}
+
+label#add {
+    color: blue;
+    font-size: 20px;
+}
+
+label#add:hover{
+    cursor: pointer;
+}
+
+div.note {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: blue;
+    width: 80%;
+    height: 200px;
+    padding: 1%;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+textarea.note-content {
+    height: 150px;
+    font-size: 12px;
+}
+
+textarea.title {
+    margin-bottom: 15%;
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+button.remove {
+    width: 20%;
+    height: 15%;
+    align-self: flex-end;
+    background-color: mintcream;
+    color: red;
+}
